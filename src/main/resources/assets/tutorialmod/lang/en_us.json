@@ -1,6 +1,12 @@
 {
-  "item.tutorialmod.zircon": "Zircon",
-  "item.tutorialmod.raw_zircon": "Zircon ore",
+  "item.tutorialmod.cobalt": "Cobalt",
+  "item.tutorialmod.raw_cobalt": "Cobalt Ore",
 
-  "itemGroup.tutorialtab": "Zircon Tutorial Tab"
+  "block.tutorialmod.cobalt_block": "Block of Cobalt",
+  "block.tutorialmod.cobalt_ore": "Cobalt Ore",
+  "block.tutorialmod.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+  "block.tutorialmod.nether_cobalt_ore": "Nether Cobalt Ore",
+  "block.tutorialmod.end_cobalt_ore": "End Cobalt ore",
+
+  "itemGroup.tutorialtab": "Cobalt Tutorial Tab"
 }

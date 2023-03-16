@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.potatocast.tutorialmod.block.ModBlocks;
 import net.potatocast.tutorialmod.item.Moditems;
 import org.slf4j.Logger;
 
@@ -21,6 +22,7 @@ public class Tutorialmod{
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         Moditems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

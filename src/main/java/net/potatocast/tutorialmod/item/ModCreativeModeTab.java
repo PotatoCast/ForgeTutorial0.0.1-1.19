@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab TUTORIAL_TAB = new CreativeModeTab("tutorialtab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Moditems.ZIRCON.get());
+            return new ItemStack(Moditems.COBALT.get());
         }
     };
 }

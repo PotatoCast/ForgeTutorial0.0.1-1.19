@@ -12,9 +12,9 @@ public class Moditems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Tutorialmod.MOD_ID);
 
-    public static final RegistryObject<Item> ZIRCON = ITEMS.register("zircon",
+    public static final RegistryObject<Item> COBALT = ITEMS.register("cobalt",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
-    public static final RegistryObject<Item> RAW_ZIRCON = ITEMS.register("raw_zircon",
+    public static final RegistryObject<Item> RAW_COBALT = ITEMS.register("raw_cobalt",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static void register(IEventBus eventBus) {
