@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tutorialmod:cobalt_ore",
+    "tutorialmod:cobalt_block",
+    "tutorialmod:deepslate_cobalt_ore",
+    "tutorialmod:nether_cobalt_ore",
+    "tutorialmod:end_cobalt_ore"
+  ]
+}
